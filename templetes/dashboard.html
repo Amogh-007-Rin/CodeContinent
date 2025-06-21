@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dashboard</title>
+    <link rel="stylesheet" href="/styles/dashboard.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">My Dashboard</div>
+        <div class="nav-links">
+            <a href="/templetes/index.html">Home</a>
+            <a href="#tasks">Tasks</a>
+            <a href="#calendar">Calendar</a>
+            <a href="#settings">Settings</a>
+            <div class="profile-icon" title="Profile">👤</div>
+        </div>
+    </nav>
+
+    <div class="dashboard">
+  
+        <div class="card welcome-card">
+            <h1>Welcome, Ammy!</h1>
+            <p>Here's your personal dashboard for today, June 21, 2025.</p>
+        </div>
+
+      
+        <div class="card tasks">
+            <div class="card-header">
+                <h2>Today's Tasks</h2>
+                <span class="icon">📋</span>
+            </div>
+            <ul>
+                <li>
+                    <input type="checkbox" id="task1">
+                    <label for="task1">Complete project proposal</label>
+                    <span class="priority high">High</span>
+                </li>
+                <li>
+                    <input type="checkbox" id="task2">
+                    <label for="task2">Team meeting at 2 PM</label>
+                    <span class="priority medium">Medium</span>
+                </li>
+                <li>
+                    <input type="checkbox" id="task3">
+                    <label for="task3">Update portfolio</label>
+                    <span class="priority low">Low</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Calendar Card -->
+        <div class="card calendar">
+            <div class="card-header">
+                <h2>Calendar</h2>
+                <span class="icon">📅</span>
+            </div>
+            <div class="month">June 2025</div>
+            <div class="days">
+                <div class="day">S</div>
+                <div class="day">M</div>
+                <div class="day">T</div>
+                <div class="day">W</div>
+                <div class="day">T</div>
+                <div class="day">F</div>
+                <div class="day">S</div>
+                <div class="day">1</div>
+                <div class="day">2</div>
+                <div class="day">3</div>
+                <div class="day">4</div>
+                <div class="day">5</div>
+                <div class="day">6</div>
+                <div class="day">7</div>
+                <div class="day">8</div>
+                <div class="day">9</div>
+                <div class="day">10</div>
+                <div class="day">11</div>
+                <div class="day">12</div>
+                <div class="day">13</div>
+                <div class="day">14</div>
+                <div class="day">15</div>
+                <div class="day">16</div>
+                <div class="day">17</div>
+                <div class="day">18</div>
+                <div class="day">19</div>
+                <div class="day">20</div>
+                <div class="day today">21</div>
+            </div>
+        </div>
+
+        <!-- Weather Card -->
+        <div class="card weather">
+            <div class="card-header">
+                <h2>Weather</h2>
+                <span class="icon">☀️</span>
+            </div>
+            <div class="temp">28°C</div>
+            <div class="condition">Sunny</div>
+            <div class="details">
+                <div>Humidity: 65%</div>
+                <div>Wind: 10 km/h</div>
+            </div>
+        </div>
+
+        <!-- Quick Links Card -->
+        <div class="card quick-links">
+            <div class="card-header">
+                <h2>Quick Links</h2>
+                <span class="icon">🔗</span>
+            </div>
+            <div class="links">
+                <a href="https://mail.google.com"><i>✉️</i>Email</a>
+                <a href="https://calendar.google.com"><i>📅</i>Calendar</a>
+                <a href="https://drive.google.com"><i>📁</i>Drive</a>
+                <a href="https://www.linkedin.com"><i>💼</i>LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
